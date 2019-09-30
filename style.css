@@ -11,13 +11,14 @@ body {
 }
 .haus {
     grid-area: haus;
-    background-color: #3772FF;
+    background-color: #3a005e;
     font-family: 'Montserrat', sans-serif;
     padding-left: 1em;
+    color: white;
 }
 .topnav {
     grid-area: topnav;
-    background-color: #F038FF;
+    background-color: #000000;
 }
 .foot {
     grid-area: foot;
@@ -36,7 +37,7 @@ body {
     justify-content: space-around;
     margin: 0;
     padding-left: 0;
-    background-color: #F038FF;
+    background-color: #000000;
     padding: 1em;
 }
 .topmenu li, .footmenu li {

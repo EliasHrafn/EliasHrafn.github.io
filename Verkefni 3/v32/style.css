@@ -12,12 +12,12 @@ body {
 }
 .haus {
     grid-area: haus;
-    background-color: #3772FF;
+    background-color: #6a8d92;
     font-family: 'Montserrat', sans-serif;
 }
 .topnav {
     grid-area: topnav;
-    background-color: #F038FF;
+    background-color: #a1e887;
 }
 .main {
     grid-area: main;
@@ -63,7 +63,7 @@ body {
     justify-content: space-around;
     margin: 0;
     padding-left: 0;
-    background-color: #F038FF;
+    background-color: #a1e887;
     padding: 1em;
 }
 .topmenu li, .footmenu li {
@@ -71,7 +71,7 @@ body {
 }
 /* almennir stylar fyrir aðal texta */
 .main {
-    background-color: #E2EF70;
+    background-color: #80b192;
 }
 .as2 {
     border-top: solid 2px;
