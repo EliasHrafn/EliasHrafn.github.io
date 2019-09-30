@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 60em;
+    margin: 1em auto;
+}
+/* segir til hvað er hvað a area þannig að grid geti raðað upp eftir því (auka stylar fyrir útlit) */
+.container {
+    grid-area: container;
+}
+.haus {
+    grid-area: haus;
+    background-color: #3772FF;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 1em;
+}
+.topnav {
+    grid-area: topnav;
+    background-color: #F038FF;
+}
+.foot {
+    grid-area: foot;
+}
+.container {
+    display: grid;
+    grid-template-areas: 
+        "topnav haus" 
+        "foot foot";
+    margin-top: 40%;
+}
+/* foot-menu */
+.footmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 0;
+    background-color: #F038FF;
+    padding: 1em;
+}
+.topmenu li, .footmenu li {
+    list-style-type: none;
+}
+/* top-menu */
+div.topmenu ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
