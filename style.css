@@ -4,6 +4,7 @@
 body {
     max-width: 60em;
     margin: 1em auto;
+    background-color: #000000;
 }
 /* segir til hvað er hvað a area þannig að grid geti raðað upp eftir því (auka stylar fyrir útlit) */
 .container {
