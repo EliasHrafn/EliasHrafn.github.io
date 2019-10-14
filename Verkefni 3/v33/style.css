@@ -76,8 +76,11 @@ body {
 .main {
     background-color: #e5dcc5;
 }
+.as2 {
+    border-left: solid 2px;
+}
 .art1 {
-    border-top: solid 1px;
+    border-top: solid 2px;
 }
 /* top-menu */
 div.topmenu ul{

@@ -1,2 +1,2 @@
 # VEF1
-[Forsíða](./index.html)
+# EliasHrafn.github.io/index.html
