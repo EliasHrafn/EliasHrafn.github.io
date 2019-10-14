@@ -7,8 +7,8 @@
     <!-- veljið leturgerð af http://fonts.google.com-->
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body id=" ">
-    <header class="container">
+  <body id="top">
+    <header class="container headcolor col-2">
       <div>
         <h1>
           Efnisyfirlit
@@ -17,20 +17,20 @@
       <div>
         <p class="verkefni">Verkefni 4.2</p>
         <nav class="topnav">
-          <a href=" " title="bakgrunnar">Bakgrunnar</a>
-          <a href=" " title="Efnisyfirlit">Efnisyfirlit</a>
+          <a href="index.html" title="bakgrunnar">Bakgrunnar</a>
+          <a href="innerlinks.html" title="Efnisyfirlit">Efnisyfirlit</a>
         </nav>
       </div>
     </header>
-    <div class="">
+    <div class="bgcolor">
       <section class="container">
         <nav class="innermenu"> 
-          <a href="#">Læknisskoðun</a> <!-- #læknis = tengi á id -->
-          <a href="#">Óskirnar 3</a>
-          <a href="#">Adam og ...</a>
-          <a href="#">Alnæmisfaraldurinn</a>
-          <a href="#">Jólakveðja</a>
-          <a href="#">Gef oss í dag vort daglegt ... </a>
+          <a href="#Læknisskoðun">Læknisskoðun</a> <!-- #læknis = tengi á id -->
+          <a href="#Óskirnar">Óskirnar 3</a>
+          <a href="#Adam">Adam og ...</a>
+          <a href="#Alnæmi">Alnæmisfaraldurinn</a>
+          <a href="#Jólakveðja">Jólakveðja</a>
+          <a href="#Gefoss">Gef oss í dag vort daglegt ... </a>
         </nav> 
         <h1>Innri og ytri tenglar</h1>
         <p>Í <strong>&lt;footer&gt;</strong> tagið á að setja upplýsignar um þig í DD lista og nokkra tengla í UL lista sem vísa á önnur verkefni og aðrar vefsíður. Vefsíðurnar eiga að birtast í nýjum glugga í vafranum (notið <i>target:_blank</i>)</p>
@@ -40,7 +40,7 @@
         <p>Hvernig á að setja einn tengil á vefsíðuna sem er með fastri staðsetningu neðst á skjánum og  vísar <br> "efst á síðu"?</p>
       </section>
     </div>
-    <div class="" id="">
+    <div class="bgcolor" id="Læknisskoðun">
       <section class="container" >
           <h3>Læknisskoðun</h3>
           <p>90 ára gamall maður var í árlegri læknisskoðun og læknirinn spurði hann hvernig hann hefði það.
@@ -52,10 +52,10 @@
           „Það er óhugsandi,“ sagði gamli maðurinn, „einhver annar hlýtur að hafa skotið hann.“
           </p>
           <p>„Já – það er nú eiginlega það sem ég var að reyna að segja,“ svaraði læknirinn.</p>
-          <p><a href=" ">Efst á síðu</a></p>
+          <p><a href="#top">Efst á síðu</a></p>
       </section>
     </div>
-    <div class="" id="Óskirnar">
+    <div class="bgcolor" id="Óskirnar">
       <section class="container">
         <div>
             <h3 class=" ">Óskirnar 3</h3>
@@ -71,11 +71,11 @@
           </p><p>
           Þá segir andinn: "Akreinarnar – viltu tvær eða fjórar?"
           </p>
-          <p><a href=" ">Efst á síðu</a></p>
+          <p><a href="#top">Efst á síðu</a></p>
         </div>
       </section>
     </div>
-    <div class="" id="Adam">
+    <div class="bgcolor" id="Adam">
       <section class="container" >
           <h3 class=" ">Adam og ....</h3>
           <P>Dag einn sagði Adam við Guð: „Drottinn, ég er með vandamál.“
@@ -95,9 +95,9 @@
           <p><a href=" ">Efst á síðu</a></p>
       </section>
     </div>
-    <div class="" id="Alnæmi">
+    <div class="bgcolor" id="Alnæmi">
       <section class="container">
-          <h3 class=" ">Alnæmisfaraldurinn</h3>
+          <h3 class="#top">Alnæmisfaraldurinn</h3>
             <p>Nýlega héldu Barack Obama og Vladimir Putin fund um útbreiðslu alnæmis og annarra kynsjúkdóma í löndum sínum. Putin spurði Obama hvernig stjórnvöld í Bandaríkjunum reyndu að koma í veg fyrir alnæmi.
             </p><p>
             „Við hvetjum fólk til að fara í kynlífsbindindi.“ sagði Obama.
@@ -112,10 +112,10 @@
             </p><p>
             Að fundinum loknum hringdi Obama í forstjóra getnaðarvarnafyrirtækisins: „Ég vil að þú gerir mér greiða.“ sagði hann. „Ég vil að þú sendir Vladimir Putin svona um það bil 5 milljón pakka af smokkum. Þeir eiga allir að vera 25 sentimetra langir og ummálið á að vera fimm sentimetrar. Á hverjum einasta smokki vil ég að standi Made in the USA – Size medium“
           </p>
-          <p><a href=" ">Efst á síðu</a></p>
+          <p><a href="#top">Efst á síðu</a></p>
       </section>
     </div>
-    <div class="" id="Jólakveðja">
+    <div class="bgcolor" id="Jólakveðja">
       <section class="container">
           <h3 class=" ">Jólakveðja</h3>
           <p>Það var aðfangadagskvöld jóla og þjófur var búinn að brjótast inn í hús eitt. Skyndilega heyrir hann rödd sem segir: „Jesús sér þig.“
@@ -133,10 +133,10 @@
             „Róbert?“ spyr þjófurinn. „Hvaða hálfvita dettur í hug að kalla páfagaukinn sinn Róbert?“
             </p><p>
             „Sama hálfvitanum og dettur í hug að kalla Rottweiler varðhundinn sinn Jesús.“ svarar páfagaukurinn.
-            </p><p><a href=" ">Efst á síðu</a></p>
+            </p><p><a href="#top">Efst á síðu</a></p>
         </section>
       </div>
-      <div class="" id="Gefoss">
+      <div class="bgcolor" id="Gefoss">
         <section class="container">
           <h3 class=" ">Gef oss í dag vort daglegt ... </h3>
           <p>Dag einn var bankað á hurðina á skrifstofu páfans. Inn kom auglýsingastjóri sem vildi gera samning við páfann. Hann settist og kynnti sig: „Ég er frá Kentucky fried chicken. Við viljum fá þig til að gera auglýsingu fyrir okkur. Allt sem þú þarft að segja er að fá kirkjuna til að breyta línunni í faðirvorinu úr Gef oss í dag vort daglegt brauð í Gef oss í dag vorn daglega kjúkling.“
@@ -146,10 +146,10 @@
             Sölumaðurinn fór vonsvikinn í burtu, en birtist aftur einni viku síðar í sama tilgangi og nú með fjórar milljónir $ til að gefa páfanum. Aftur neitaði páfinn. Sölumaðurinn kom aftur viku síðar, en nú með tíu milljónir $. Nú svaraði páfinn: „Leyfðu mér að hugsa þetta í smá tíma.“
             </p><p>
             Páfinn kallaði nú klerka og biskupa á fund til sín og sagði: „Jæja, herrar mínir. Ég er með góðar fréttir og slæmar fréttir. Góðu fréttirnar eru þær að Kentucky fried chichen hefur fengið okkur til að breyta einni línu í faðirvorinu í Gef oss í dag vorn daglega kjúkling. Slæmu fréttirnar eru þær að við erum búnir að missa samninginn við bakarasamtökin.“
-          </p><p><a href=" ">Efst á síðu</a></p>
+          </p><p><a href="#top">Efst á síðu</a></p>
         </section>
       </div>
-      <footer class="container">
+      <footer class="container footcolor col-3">
           <nav>
             <h4>DL listi </h4>
             <dl><!--Description list, nafn tölvupóstur og áfangi-->
@@ -188,6 +188,6 @@
         </footer>
       <p class="copy">&copy; 2019 ---</p>
     <!--tengill með absolute staðsetningu -->
-    <a href=" " class="topbutt" title="Efst á síðu"> &#8679; </a>
+    <a href="#top" class="topbutt" title="Efst á síðu"> &#8679; </a>
   </body>
 </html>
