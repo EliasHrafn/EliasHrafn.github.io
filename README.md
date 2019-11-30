@@ -1,2 +1,2 @@
 # VEF1
-[Aðal tenging á milli síða](EliasHrafn.github.io)
+* aðal tenging á milli síðana er í description
