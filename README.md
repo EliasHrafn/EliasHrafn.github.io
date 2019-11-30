@@ -1,2 +1,2 @@
 # VEF1
-# EliasHrafn.github.io/index.html
+[Aðal tenging á milli síða](EliasHrafn.github.io/index.html)
