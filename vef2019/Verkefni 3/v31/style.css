@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 60em;
+    margin: 1em auto;
+    border: 1px solid #77b6ea;
+}
+/* segir til hvað er hvað a area þannig að grid geti raðað upp eftir því (auka stylar fyrir útlit) */
+.container {
+    grid-area: container;
+}
+.haus {
+    grid-area: haus;
+    background-color: #70baa7;
+    font-family: 'Montserrat', sans-serif;
+}
+.topnav {
+    grid-area: topnav;
+    background-color: #506c6d;
+}
+.main {
+    grid-area: main;
+    font-family: 'Lusitana', serif;
+}
+.foot {
+    grid-area: foot;
+}
+.as1 {
+    grid-area: as1;
+}
+.as2 {
+    grid-area: as2;
+}
+.art1 {
+    grid-area: art1;
+}
+/* breidd frá hliðum þanning að text er ekki klestur við þær */
+.as1, .as2, .art1, h1 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+/* uppsettinging síðu */
+.container {
+    display: grid;
+    grid-template-areas: 
+        "haus"
+        "topnav"
+        "main"
+        "foot";
+}
+/* uppsettinging texta á síðu */
+.main {
+    display: grid;
+    grid-gap: 0em;
+    grid-template-areas: 
+        "as1"
+        "as2"
+        "art1";
+}
+/* foot-menu */
+.footmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 0;
+    background-color: #506c6d;
+    padding: 1em;
+}
+.topmenu li, .footmenu li {
+    list-style-type: none;
+}
+/* almennir stylar fyrir aðal texta */
+.main {
+    background-color: #bcc99a;
+}
+.as2 {
+    border-top: solid 2px;
+}
+.art1 {
+    border-top: solid 2px;
+}
+/* top-menu */
+div.topmenu ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}

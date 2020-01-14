@@ -1,0 +1,116 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+    background-color:darkblue;
+
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+.headcolor, .footcolor, .copy {
+    color:#fff
+}
+.bgcolor {
+    background-color: burlywood;
+    padding: 1em;
+}
+blockquote {
+    background-color: rgba(255, 255, 255, .7);
+}
+.innermenu  {
+    display: flex;
+    flex-flow: row;
+    justify-content: center; 
+}
+.innermenu a {
+    background-color:darkblue;
+    color: rgb(240,202,152);
+    padding: .5em 1em;
+    text-decoration: none;
+    border-right: 1px white solid;
+}
+.innermenu a:last-child{
+    border: 0;
+}
+.innermenu a:active,.innermenu a:hover {
+    background-color: rgb(240,202,152);
+    color:darkblue;
+    padding: .5em;
+}
+.topnav a, .footnav a {
+    color:rgb(240,202,152);
+    text-decoration: none;
+}
+
+.topnav a:hover, .footnav a:hover {
+    color:darkblue;
+    background-color: rgb(240,202,152);
+    text-decoration: none;
+}
+.footnav {
+    padding: 0;
+}
+.footnav li {
+list-style-type: none;
+line-height: 2;
+}
+.topnav a{
+    padding-left:2em;
+}
+.headcolor p{
+    text-align: right;
+}
+.topnav {
+    margin-top: 3em;
+}
+.marginbottom{
+    margin: 0.5em 0 -1em 0 
+}
+.topbutt {
+    display: block;
+    position: fixed;
+    font-size: 2em;
+    color:darkblue;
+    border: 2px solid darkblue;
+    right:2em;
+    text-decoration: none;
+    bottom: 2em;
+    background-color: rgb(240,202,152);
+    border-radius: 100%;
+    padding: 0 .45em;
+}
+.topbutt:hover {
+    color:rgb(240,202,152);
+    border: 2px solid rgb(240,202,152);
+    text-decoration: none;
+    background-color: darkblue;
+}
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+.copy {
+    text-align: center;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em
+}
